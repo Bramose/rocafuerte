@@ -1,12 +1,54 @@
 /* Este es el estilo del main */
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
-    list-style: none;
+    list-style-type: none;
+    display: flex;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 28px;
+    color: #252525;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 span {
+    color: #fbad1a;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.btnAboutUs {
+    color: white;
+}
+
+.img-box {
+    position: relative;
+    height: 210px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
 }
 
 .icon {
     float: left;
     padding-right: 5px;
+}
+
+.text {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 .main-menu {
@@ -32,4 +74,16 @@ ul {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.logo {
+    max-height: 200px;
+}
+
+.offer-wraper {
+    padding: 80px 0;
+}
+
+.general-info {
+    float: left;
 }
